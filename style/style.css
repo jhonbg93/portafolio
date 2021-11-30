@@ -47,6 +47,14 @@ body{
     font-family: 'New Tegomin', serif;
 }
 
+form{
+    display: solid;
+    justify-content: center;
+    box-sizing: 25rem;
+    border: solid black;
+    border-radius: 10px;
+}
+
 footer{
     background: black;
     padding: 20px 0;
