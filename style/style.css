@@ -111,6 +111,19 @@ form{
 
 }
 
+.whatsapp{
+    margin-left: 10px;
+    size: 6px;
+    color: green;
+    direction: left;
+}
+
+.social{
+    justify-content: center; 
+    align-content: center;
+}
+
+
 footer{
     background: black;
     padding: 20px 0;
