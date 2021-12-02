@@ -8,6 +8,17 @@ body{
     --color-sm: rgb(100, 149, 237);
 }
 
+header{
+    background-color: rgb(100, 149, 237);
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
 .text-proyecto{
     align-content: center;
 }
@@ -27,6 +38,15 @@ body{
     justify-content: center;
     box-sizing: 50%;
     
+}
+
+.conocimiento{
+    width: 40%;
+    margin-left: 50%;
+    text-align: center;
+    text-justify: auto;
+    background: var(--color-sm);
+    border-radius: 10px;
 }
 
 .bg{
@@ -87,6 +107,8 @@ form{
     display: solid;
     width: 25rem;
     align-content: center;
+    margin: auto;
+
 }
 
 footer{
