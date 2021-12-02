@@ -22,38 +22,40 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="https://github.com/jhonbg93" target="_blank">
+                    <img src="./image/logo.git.png" alt="" width="30" class="d-inline-block align-text-top">
+                    @jhonbg93
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi">SOBRE MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Portafolio">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a>
+                        </li>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="https://github.com/jhonbg93" target="_blank">
-                <img src="./image/logo.git.png" alt="" width="30" class="d-inline-block align-text-top">
-                @jhonbg93
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#sobre-mi">SOBRE MI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#Portafolio">PORTAFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a>
-                    </li>
+                    </ul>
 
-                </ul>
-
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
     <div class="bg home">
         <div class="bg-text container">
             <h1>
@@ -62,12 +64,21 @@
         </div>
 
     </div>
+
     <div class="container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-        <h2 id="sobre-mi">Sobre mi</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eveniet deleniti iusto excepturi odio maiores
-            dicta culpa beatae et, saepe labore magnam quod sint nobis quos, nesciunt maxime necessitatibus accusantium.
-        </p>
+        <div class="container-sobremi">
+            <h2 id="sobre-mi">Sobre mi</h2>
+            <p>
+                Actualmente creo, diseño, páginas y portales web al lado del cliente (Front-end, UX/UI).
+
+                Continuamente aprendiendo y adquiriendo nuevas habilidades en función a las actuales y futuras demandas
+                y
+                tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general.
+
+                Apasionado con el trabajo que realizo, ofreciendo en cada proyecto total atención, dedicación,
+                personalización y calidad al cliente.
+            </p>
+        </div>
     </div>
 
     <div class="text-proyecto" id="Portafolio" data-aos="zoom-in-left">
@@ -84,19 +95,26 @@
                     ipsum dolor sit amet, consectetur adipisicing elit. Modi quos, doloremque
                     expedita laborum id
                     assumenda magni perspiciatis culpa repellendus! Quae reiciendis molestiae saepe ab corporis,
-                    voluptate quia veniam quos cum?</p>
+                    voluptate quia veniam quos cum?<br>
+                    <a class="botton-project" target="_blank"
+                        href="https://es.stackoverflow.com/questions/117528/redireccionar-a-url-al-hacer-click-settimeout?rq=1">
+                        <button type="button" class="btn btn-info">Ver mas</button>
+                    </a>
+                </p>
+
             </div>
         </div>
     </section>
 
-    <section class="container custom-section">
+    <!--  <section class="container custom-section">
         <div class="row">
             <div class="cb col-md">
                 <p class="card-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Lorem
                     ipsum dolor sit amet, consectetur adipisicing elit. Modi quos, doloremque
                     expedita laborum id
                     assumenda magni perspiciatis culpa repellendus! Quae reiciendis molestiae saepe ab corporis,
-                    voluptate quia veniam quos cum?
+                    voluptate quia veniam quos cum?<br>
+                    <button type="button" class="btn btn-info">Ver mas</button>
                 </p>
             </div>
             <div class="col-md" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">>
@@ -105,8 +123,8 @@
             </div>
         </div>
     </section>
-
-    <section class="container custom-section">
+ -->
+    <!--     <section class="container custom-section">
         <div class="row">
             <div class="col-md" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">>
                 <img src="/image/depositphotos_50349791-stock-photo-early-child-development.jpg" class="card-img-top"
@@ -122,24 +140,30 @@
             </div>
         </div>
     </section>
-    <section id="contacto">
-        <h2>CONTACTO</h2>
-        <form>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="btn-form">
-                <input class="btn btn-primary" type="submit" value="Submit">
-            </div>
+ -->
+    <section class="contac container">
+        <div class="container-contacto">
+            <h2 class="text-contac">CONTACTO</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="btn-form">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                </div>
+
+        </div>
 
         </form>
     </section>
