@@ -8,6 +8,10 @@ body{
     --color-sm: rgb(100, 149, 237);
 }
 
+h3{
+    font-size: 20px;
+}
+
 header{
     background-color: rgb(100, 149, 237);
     position: sticky;
@@ -18,6 +22,18 @@ header{
 
 }
 
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+    margin-left: 5%;
+    justify-content: center;
+
+}
 
 .text-proyecto{
     align-content: center;
@@ -41,12 +57,12 @@ header{
 }
 
 .conocimiento{
-    width: 40%;
-    margin-left: 50%;
+    width: 60rem;
     text-align: center;
     text-justify: auto;
     background: var(--color-sm);
     border-radius: 10px;
+    
 }
 
 .bg{
