@@ -28,7 +28,7 @@ ul{
 }
 
 li{
-    display: flex;
+    display: block;
     list-style-type: none;
     margin-left: 5%;
     justify-content: center;
@@ -128,10 +128,13 @@ form{
 }
 
 .whatsapp{
+    display: flex;
     margin-left: 10px;
     size: 6px;
     color: green;
     direction: left;
+    position: sticky;
+    z-index: 4;
 }
 
 .social{
