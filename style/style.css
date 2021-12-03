@@ -62,6 +62,7 @@ li{
     text-justify: auto;
     background: var(--color-sm);
     border-radius: 10px;
+    box-shadow: 10px var(--color-sm);
     
 }
 
@@ -130,12 +131,15 @@ form{
 .whatsapp{
     display: flex;
     margin-left: 10px;
-    size: 6px;
-    color: green;
     direction: left;
     position: sticky;
-    z-index: 4;
+    background: rgb(0, 0, 0);
+    width: 10rem;
+    border: solid black;
+    border-radius: 10px;
 }
+
+
 
 .social{
     justify-content: center; 
