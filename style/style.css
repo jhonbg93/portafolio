@@ -25,6 +25,8 @@ header{
 ul{
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 li{
@@ -57,12 +59,12 @@ li{
 }
 
 .conocimiento{
-    width: 60rem;
+    width: auto;
     text-align: center;
     text-justify: auto;
     background: var(--color-sm);
     border-radius: 10px;
-    box-shadow: 10px var(--color-sm);
+    box-shadow: 5px 10px 10px 1px;
     
 }
 
@@ -108,11 +110,10 @@ li{
 
 form{
     background: rgb(93, 93, 224);
-    display: solid;
     justify-content: center;
-    box-sizing: 25rem;
     border: solid rgb(93, 93, 224) 20px;
     border-radius: 20px;
+    box-shadow: 10px 15px 20px 5px;  
 }
 
 .text-contac{
@@ -125,18 +126,12 @@ form{
     width: 25rem;
     align-content: center;
     margin: auto;
+    margin-top: 10%;
 
 }
 
 .whatsapp{
-    display: flex;
-    margin-left: 10px;
-    direction: left;
-    position: sticky;
-    background: rgb(0, 0, 0);
-    width: 10rem;
-    border: solid black;
-    border-radius: 10px;
+    
 }
 
 
