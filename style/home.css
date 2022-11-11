@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+}
+
+.container-img {
+  margin-top: 5rem;
+  width: 50%;
+  height: 5rem;
+}
+
+.home-img {
+  margin-left: 2rem;
+  width: 700px;
+  border-radius: 50%;
+}
+
+.container-text {
+  margin-top: 10rem;
+  position: static;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,9 @@
+h1{
+    color: #FFFFFF;
+}
+
+#myElement{
+    font-size: 3rem;
+    font-family: 'Courier New';
+    color: rgb(136, 125, 125);
+}

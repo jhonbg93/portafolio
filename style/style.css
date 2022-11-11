@@ -1,151 +1,133 @@
-body{
-    margin: 0;
-    background: lightgrey;
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
 }
 
-:root{
-    --main-color: rgb(248, 241, 241);
-    --color-sm: rgb(100, 149, 237);
+:root {
+  --main-color: #607d8b;
+  --color-sm: #607d8b;
 }
 
-h3{
-    font-size: 20px;
+h3 {
+  font-size: 20px;
 }
 
-header{
-    background-color: rgb(100, 149, 237);
-    position: sticky;
-    top: 0;
-    z-index: 4;
-    width: 100%;
-    justify-content: center;
-
+header {
+  background-color: rgb(100, 149, 237);
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  width: 100%;
+  justify-content: center;
 }
 
-ul{
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
-li{
-    display: block;
-    list-style-type: none;
-    margin-left: 5%;
-    justify-content: center;
-
+li {
+  display: block;
+  list-style-type: none;
+  margin-left: 5%;
+  justify-content: center;
 }
 
-.text-proyecto{
-    align-content: center;
+.text-proyecto {
+  align-content: center;
 }
 
-.font-tex{
-    font-size: 100px;
-    justify-content: center;
-    align-content: center;
+.container-sobremi {
+  margin: 15rem;
+  background: var(--color-sm);
+  border: solid var(--color-sm);
+  border-radius: 10px;
+  box-shadow: var(--color-sm);
+  justify-content: center;
 }
 
-.container-sobremi{
-    margin: 40px 0 ;
-    background: var(--color-sm);
-    border: solid var(--color-sm);
-    border-radius: 10px;
-    box-shadow: var(--color-sm) ;
-    justify-content: center;
-    box-sizing: 50%;
-    
+.conocimiento {
+  width: auto;
+  text-align: center;
+  text-justify: auto;
+  background: var(--color-sm);
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 1px;
 }
 
-.conocimiento{
-    width: auto;
-    text-align: center;
-    text-justify: auto;
-    background: var(--color-sm);
-    border-radius: 10px;
-    box-shadow: 5px 10px 10px 1px;
-    
+.bg {
+  text-align: center;
+  padding: 10px;
+  height: 100vh;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
-.bg{
-    text-align: center;
-    padding: 10px;
-    height: 100vh;
-    background-size: cover;
-    box-sizing: border-box;
-    
+.bg-text {
+  color: var(--main-color);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
 }
 
-.bg-text{
-    color:var(--main-color);
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Rubik Mono One', sans-serif;
+.cb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.home{
-    background-image: url("/image/desarrollo-web.png");
-   /*  filter: blur(2px); */
+.card-text {
+  font-family: "New Tegomin", serif;
 }
 
-.cb{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+form {
+  background: rgb(93, 93, 224);
+  justify-content: center;
+  border: solid rgb(93, 93, 224) 20px;
+  border-radius: 20px;
+  box-shadow: 10px 15px 20px 5px;
 }
 
-.card-text{
-    font-family: 'New Tegomin', serif;
+.text-contac {
+  text-align: center;
 }
 
-form{
-    background: rgb(93, 93, 224);
-    justify-content: center;
-    border: solid rgb(93, 93, 224) 20px;
-    border-radius: 20px;
-    box-shadow: 10px 15px 20px 5px;  
+.container-contacto {
+  display: solid;
+  width: 25rem;
+  align-content: center;
+  margin: auto;
+  margin-top: 10%;
 }
 
-.text-contac{
-    text-align: center;
+.whatsapp {
 }
 
-
-.container-contacto{
-    display: solid;
-    width: 25rem;
-    align-content: center;
-    margin: auto;
-    margin-top: 10%;
-
+.social {
+  justify-content: center;
+  align-content: center;
 }
 
-.whatsapp{
-    
+footer {
+  background: black;
+  padding: 20px 0;
+  color: var(--main-color);
+  margin-top: 40px;
 }
 
-
-
-.social{
-    justify-content: center; 
-    align-content: center;
+.container-conocimientostecnicos {
+  display: flex;
+  justify-content: space-around;
 }
-
-
-footer{
-    background: black;
-    padding: 20px 0;
-    color: var(--main-color);
-    margin-top: 40px;       
-}
-
