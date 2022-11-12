@@ -1,8 +1,10 @@
-h1{
+h1 {
     color: #FFFFFF;
+    margin: 0;
 }
 
-#myElement{
+#myElement {
+    width: 5rem;
     font-size: 3rem;
     font-family: 'Courier New';
     color: rgb(136, 125, 125);

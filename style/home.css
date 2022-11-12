@@ -1,22 +1,39 @@
 .home {
   display: flex;
+  justify-content: center;
+  background-image: url("/image/desarrolloWeb.webp");
+  opacity: 0.3;
+
 }
 
 .container-img {
   margin-top: 5rem;
-  width: 50%;
-  height: 5rem;
+  width: 100vw;
+  height: 100vw;
+  align-content: center;
 }
 
 .home-img {
-  margin-left: 2rem;
+  position: absolute;
+  height: 100%;
+  width: 100rem;
+  margin-top: 0rem;
   width: 700px;
   border-radius: 50%;
+  z-index: 0;
+  opacity: 0.2;
 }
 
 .container-text {
-  margin-top: 10rem;
-  position: static;
+  height: 100%;
+  position: relative;
   text-align: center;
   padding: 10px;
+  z-index: 2;
+}
+
+.container-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }

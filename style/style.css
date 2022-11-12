@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,7 +46,7 @@ li {
 }
 
 .container-sobremi {
-  margin: 15rem;
+  margin: 2vw;
   background: var(--color-sm);
   border: solid var(--color-sm);
   border-radius: 10px;
@@ -113,21 +118,33 @@ form {
 }
 
 .whatsapp {
+  justify-content: end;
 }
 
 .social {
+  display: flex;
   justify-content: center;
-  align-content: center;
 }
 
 footer {
+  text-align: center;
   background: black;
   padding: 20px 0;
   color: var(--main-color);
   margin-top: 40px;
 }
 
+footer,
+p {
+  margin-top: 1vw;
+}
+
 .container-conocimientostecnicos {
   display: flex;
   justify-content: space-around;
+}
+
+.social,
+a {
+  margin-left: 2vw;
 }
