@@ -1,4 +1,48 @@
+section article {
+  background-color: gray;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+section article p {
+  margin: 0;
+  padding: 0;
+}
+
 .contenedor-sobremi-tecnologias {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.conocimiento {
+  width: 50%;
+  text-align: center;
+  text-justify: auto;
+  background: grey;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 1px;
+}
+
+.container-sobremi {
+  width: 40%;
+  margin: 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.conocimiento-container {
+  text-align: center;
+  width: 40%;
+  margin: 5px 10px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.container-conocimientostecnicos {
+  display: block;
   flex-wrap: wrap;
 }

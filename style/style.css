@@ -19,7 +19,7 @@ h3 {
 }
 
 header {
-  background-color: rgb(100, 149, 237);
+  background-color: rgb(203, 217, 243);
   position: sticky;
   top: 0;
   z-index: 4;
@@ -54,14 +54,7 @@ li {
   justify-content: center;
 }
 
-.conocimiento {
-  width: auto;
-  text-align: center;
-  text-justify: auto;
-  background: var(--color-sm);
-  border-radius: 10px;
-  box-shadow: 5px 10px 10px 1px;
-}
+
 
 .bg {
   text-align: center;
@@ -139,10 +132,6 @@ p {
   margin-top: 1vw;
 }
 
-.container-conocimientostecnicos {
-  display: flex;
-  justify-content: space-around;
-}
 
 .social,
 a {
